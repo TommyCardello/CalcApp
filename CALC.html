@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<title>Calculator</title>
+<style type="text/css">
+</style>
+
+<link rel="stylesheet" type="text/css" href="CALC.css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+</head>
+
+<body>
+<div id="container">
+
+     <table class="tblCalc" cellpadding=0 cellspacing=0>
+     <tr>
+         <td colspan=5 align=middle>
+          <input  onmousedown="return false" id="editWide" name="ReadOut" type="Text"
+                size=28 value="0" width="250px">
+         </td>
+     </tr>
+     <tr class="all">
+         <td><input class="elipse-key key" id="radic" type="Button" value="&radic;" ></td>
+         <td><input class="elipse-key key" id="invol"  type="Button" value="&sup2;"></td>
+         <td><input class="elipse-key key" id="procent" type="Button"
+            value="%" /></td>
+         <td><input class="cycle-key key"  type="Button"
+            value="C" id="C"/></td>
+         <td><input class="cycle-key key"   type="Button"
+            value="CE" id="CE"  /></td>
+     </tr>
+     <tr>
+         <td><input class="num-key key"  type="Button" value="7" ></td>
+         <td><input class="num-key key"  type="Button" value="8" ></td>
+         <td><input class="num-key key"  type="Button" value="9" ></td>
+         <td><input  type="Button" value="+" class="cycle-key key" id="plus" /></td>
+         <td><input class="cycle-key key" type="Button" value="*" id="sum"/></td>
+       </tr>
+     <tr>
+         <td><input class="num-key key"  type="Button" value="4" ></td>
+        <td><input class="num-key key"  type="Button" value="5" ></td>
+         <td><input class="num-key key"  type="Button" value="6" ></td>
+         <td><input class="cycle-key key" type="Button"
+            value="-" id="minus"/></td>
+         <td align=middle><input class="cycle-key key" type="Button"value=" / " id="delit"/></td>
+     </tr>
+     <tr>
+         <td><input class="num-key key"  type="Button" value="1" ></td>
+         <td><input class="num-key key"  type="Button" value="2" ></td>
+         <td><input class="num-key key"  type="Button" value="3" ></td>
+          <td colspan="2"></td>
+     </tr>
+     <tr>
+         <td><input class="num-key key"  type="Button" value="0" ></td>
+         <td><input id="dot" name="btnDecimal" type="Button"
+            value="." class="num-key key"></td>
+         <td><input id="plumin" name="btnNeg" type="button"
+            value="+/-" class="num-key key"/></td>
+         <td  colspan="2"><input id="btnWide" name="btnEquals"
+            type="Button" value="=" class="key"></td>
+     </tr>
+     </table>
+
+
+
+</div>
+
+<script type="text/JavaScript" src="calc.js">
+</script>
+
+</body>
+</html>

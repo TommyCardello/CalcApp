@@ -1,0 +1,77 @@
+body {
+	background-image:url('numbers.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+
+}
+	#container{
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -275px 0 0 -200px;
+    background-image:url('img/bg.jpg');
+    background-size: cover;
+    border-radius: 30px;
+
+}
+
+   	.tblCalc{
+ 		border:3px solid gainsboro;
+ 		border-radius: 30px;
+ 		margin:0;
+ 		padding:0;
+ 		width:425px;
+ 		height: 550px;
+ 		text-align:center;
+ 	}
+ 	.tblCalc input{
+ 		border:3px solid pink;
+ 		margin:4px;
+ 		position: relative;
+
+ 	}
+	 	#btnWide{
+ 		width:150px;
+ 		height: 130px;
+ 		position: absolute;
+ 		bottom: 15px;
+ 		left: 260px;
+ 		border-radius: 25px;
+
+ 	}
+ 	.cycle-key{
+ 		width: 70px;
+ 		height: 70px;
+ 		border-radius: 100%;
+ 		}
+ 	#editWide{
+ 		width:300px;
+ 		text-align: center;
+ 		font-family: Comic Sans;
+ 		font-size: 40px;
+ 		border-radius: 40px;
+ 		background: rgba(255,255,255, 0.8);
+ 		
+ 	}
+ 	
+ 	.elipse-key{
+ 		width: 65px;
+ 		height: 35px;
+ 		border-radius: 25px;
+
+ 	}
+ 	.num-key{
+ 		 		width: 55px;
+ 		height: 55px;
+ 		border-radius: 10px;
+ 	
+ 	}
+ 	.key:hover{border:3px solid coral;color:#000;}
+ 
+
+
+
+
+
